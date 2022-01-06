@@ -24,3 +24,17 @@ C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDienThoai\QuanLyD
 C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDienThoai\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.csproj.CoreCompileInputs.cache
 C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDienThoai\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.exe
 C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\CuaHangDienThoai\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.pdb
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\bin\Debug\DataBase\CuaHangDienThoai.mdf
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\bin\Debug\DataBase\CuaHangDienThoai_log.ldf
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\bin\Debug\QuanLyDienThoai.exe.config
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\bin\Debug\QuanLyDienThoai.exe
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\bin\Debug\QuanLyDienThoai.pdb
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.csproj.AssemblyReference.cache
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.csproj.SuggestedBindingRedirects.cache
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.frmMain.resources
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.frmHDN.resources
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.Properties.Resources.resources
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.csproj.GenerateResource.cache
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.csproj.CoreCompileInputs.cache
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.exe
+D:\BTL\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.pdb

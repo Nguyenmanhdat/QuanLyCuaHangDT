@@ -166,8 +166,17 @@
     <Compile Include="functions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Danh mục\frmLoai.resx">
+      <DependentUpon>frmLoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danh mục\frmManHinh.resx">
+      <DependentUpon>frmManHinh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hóa đơn\frmHDN.resx">
+      <DependentUpon>frmHDN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
