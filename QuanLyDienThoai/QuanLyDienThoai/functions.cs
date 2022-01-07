@@ -17,7 +17,7 @@ namespace QuanLyDienThoai
         // tạo kết nối
         public static void Connect()
         {
-            conString = @"";
+            conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\DataBase\CuaHangDienThoai.mdf;Integrated Security=True";
             // doi tuong ket noi
             con = new SqlConnection(conString);
             con.Open();
@@ -63,9 +63,9 @@ namespace QuanLyDienThoai
             {
                 cmd.ExecuteNonQuery();
             }
-            catch
+            catch(System.Exception ex)
             {
-                MessageBox.Show("them du lieu khong thnah cong!");
+                MessageBox.Show(ex.ToString());
             }
             cmd.Dispose();
             cmd = null;

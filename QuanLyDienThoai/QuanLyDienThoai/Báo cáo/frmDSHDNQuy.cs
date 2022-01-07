@@ -16,5 +16,10 @@ namespace QuanLyDienThoai
         {
             InitializeComponent();
         }
+
+        private void frmDSHDNQuy_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

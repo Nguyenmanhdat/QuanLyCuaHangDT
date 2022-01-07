@@ -96,7 +96,7 @@ namespace QuanLyDienThoai
 
         private void frmSP_Click(object sender, EventArgs e)
         {
-            frmSanPham a=new frmSanPham();
+            frmSanpham a=new frmSanpham();
             a.Show();
         }
 

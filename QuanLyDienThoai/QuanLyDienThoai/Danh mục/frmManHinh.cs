@@ -180,7 +180,7 @@ MessageBoxButtons.OK, MessageBoxIcon.Warning);
             btnHuy.Enabled = true;
 
             txtTenMH.Focus();
-
+            txtMaMH.Enabled = false;
             ResetValues();
 
             txtMaMH.Text = functions.tangkey("select TOP(1) (substring(MaMH,3,3)+1) as soma from  tblManhinh order by soma desc", "MH");
