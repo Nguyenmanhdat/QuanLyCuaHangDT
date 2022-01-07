@@ -47,41 +47,53 @@
             // 
             // btnIn
             // 
-            this.btnIn.Location = new System.Drawing.Point(492, 568);
+            this.btnIn.Image = global::QuanLyDienThoai.Properties.Resources.btn_in;
+            this.btnIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnIn.Location = new System.Drawing.Point(493, 554);
             this.btnIn.Name = "btnIn";
-            this.btnIn.Size = new System.Drawing.Size(115, 23);
+            this.btnIn.Size = new System.Drawing.Size(115, 37);
             this.btnIn.TabIndex = 32;
             this.btnIn.Text = "In báo cáo";
+            this.btnIn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnIn.UseVisualStyleBackColor = true;
             this.btnIn.Click += new System.EventHandler(this.btnIn_Click);
             // 
             // btnDong
             // 
-            this.btnDong.Location = new System.Drawing.Point(667, 568);
+            this.btnDong.Image = global::QuanLyDienThoai.Properties.Resources.btn_Thoat;
+            this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDong.Location = new System.Drawing.Point(668, 554);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(75, 23);
+            this.btnDong.Size = new System.Drawing.Size(92, 37);
             this.btnDong.TabIndex = 31;
             this.btnDong.Text = "Đóng";
+            this.btnDong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDong.UseVisualStyleBackColor = true;
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnBaocao
             // 
-            this.btnBaocao.Location = new System.Drawing.Point(347, 568);
+            this.btnBaocao.Image = global::QuanLyDienThoai.Properties.Resources.btn_Them;
+            this.btnBaocao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBaocao.Location = new System.Drawing.Point(320, 554);
             this.btnBaocao.Name = "btnBaocao";
-            this.btnBaocao.Size = new System.Drawing.Size(96, 23);
+            this.btnBaocao.Size = new System.Drawing.Size(126, 37);
             this.btnBaocao.TabIndex = 30;
             this.btnBaocao.Text = "Tạo báo cáo";
+            this.btnBaocao.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBaocao.UseVisualStyleBackColor = true;
             this.btnBaocao.Click += new System.EventHandler(this.btnBaocao_Click);
             // 
             // btnHienthi
             // 
-            this.btnHienthi.Location = new System.Drawing.Point(209, 568);
+            this.btnHienthi.Image = global::QuanLyDienThoai.Properties.Resources.btn_Hienthi;
+            this.btnHienthi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHienthi.Location = new System.Drawing.Point(200, 554);
             this.btnHienthi.Name = "btnHienthi";
-            this.btnHienthi.Size = new System.Drawing.Size(75, 23);
+            this.btnHienthi.Size = new System.Drawing.Size(85, 37);
             this.btnHienthi.TabIndex = 29;
             this.btnHienthi.Text = "Hiển thị";
+            this.btnHienthi.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnHienthi.UseVisualStyleBackColor = true;
             this.btnHienthi.Click += new System.EventHandler(this.btnHienthi_Click);
             // 

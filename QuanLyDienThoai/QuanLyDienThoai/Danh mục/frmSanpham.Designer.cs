@@ -66,11 +66,14 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(553, 541);
+            this.btnLuu.Image = global::QuanLyDienThoai.Properties.Resources.btn_Luu;
+            this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLuu.Location = new System.Drawing.Point(570, 542);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(102, 29);
+            this.btnLuu.Size = new System.Drawing.Size(80, 47);
             this.btnLuu.TabIndex = 125;
             this.btnLuu.Text = "Lưu";
+            this.btnLuu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
@@ -84,12 +87,15 @@
             // 
             // btnOpen
             // 
+            this.btnOpen.Image = global::QuanLyDienThoai.Properties.Resources.btn_Mở;
+            this.btnOpen.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnOpen.Location = new System.Drawing.Point(808, 251);
             this.btnOpen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(68, 35);
+            this.btnOpen.Size = new System.Drawing.Size(68, 44);
             this.btnOpen.TabIndex = 123;
             this.btnOpen.Text = "Open";
+            this.btnOpen.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnOpen.UseVisualStyleBackColor = true;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
@@ -97,11 +103,12 @@
             // 
             this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDong.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnDong.Image = global::QuanLyDienThoai.Properties.Resources.btn_Thoat;
             this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDong.Location = new System.Drawing.Point(983, 541);
+            this.btnDong.Location = new System.Drawing.Point(1060, 542);
             this.btnDong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(101, 29);
+            this.btnDong.Size = new System.Drawing.Size(86, 46);
             this.btnDong.TabIndex = 122;
             this.btnDong.Text = "Đóng";
             this.btnDong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -250,11 +257,12 @@
             // 
             this.btnHienthi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHienthi.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnHienthi.Image = global::QuanLyDienThoai.Properties.Resources.btn_Hienthi;
             this.btnHienthi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHienthi.Location = new System.Drawing.Point(876, 541);
+            this.btnHienthi.Location = new System.Drawing.Point(919, 542);
             this.btnHienthi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHienthi.Name = "btnHienthi";
-            this.btnHienthi.Size = new System.Drawing.Size(101, 29);
+            this.btnHienthi.Size = new System.Drawing.Size(101, 47);
             this.btnHienthi.TabIndex = 107;
             this.btnHienthi.Text = "Hiển thị";
             this.btnHienthi.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -265,11 +273,12 @@
             // 
             this.btnTimkiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimkiem.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnTimkiem.Image = global::QuanLyDienThoai.Properties.Resources.btn_Tìm_kiếm;
             this.btnTimkiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTimkiem.Location = new System.Drawing.Point(769, 541);
+            this.btnTimkiem.Location = new System.Drawing.Point(794, 542);
             this.btnTimkiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTimkiem.Name = "btnTimkiem";
-            this.btnTimkiem.Size = new System.Drawing.Size(101, 29);
+            this.btnTimkiem.Size = new System.Drawing.Size(101, 47);
             this.btnTimkiem.TabIndex = 106;
             this.btnTimkiem.Text = "Tìm kiếm";
             this.btnTimkiem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -280,11 +289,12 @@
             // 
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnSua.Image = global::QuanLyDienThoai.Properties.Resources.btn_Sua;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(338, 541);
+            this.btnSua.Location = new System.Drawing.Point(332, 542);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(101, 29);
+            this.btnSua.Size = new System.Drawing.Size(79, 47);
             this.btnSua.TabIndex = 105;
             this.btnSua.Text = "Sửa";
             this.btnSua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -295,11 +305,12 @@
             // 
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnXoa.Image = global::QuanLyDienThoai.Properties.Resources.btn_Xoa;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(446, 541);
+            this.btnXoa.Location = new System.Drawing.Point(455, 542);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(101, 29);
+            this.btnXoa.Size = new System.Drawing.Size(83, 47);
             this.btnXoa.TabIndex = 104;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -310,11 +321,12 @@
             // 
             this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnHuy.Image = global::QuanLyDienThoai.Properties.Resources.btnHuybo;
             this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHuy.Location = new System.Drawing.Point(661, 541);
+            this.btnHuy.Location = new System.Drawing.Point(684, 541);
             this.btnHuy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(101, 29);
+            this.btnHuy.Size = new System.Drawing.Size(82, 47);
             this.btnHuy.TabIndex = 103;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -325,11 +337,12 @@
             // 
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnThem.Image = global::QuanLyDienThoai.Properties.Resources.btn_Them;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(231, 541);
+            this.btnThem.Location = new System.Drawing.Point(208, 541);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(101, 29);
+            this.btnThem.Size = new System.Drawing.Size(82, 47);
             this.btnThem.TabIndex = 102;
             this.btnThem.Text = "Thêm";
             this.btnThem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

@@ -141,6 +141,7 @@
             // 
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnSua.Image = global::QuanLyDienThoai.Properties.Resources.btn_Sua;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSua.Location = new System.Drawing.Point(308, 460);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -156,6 +157,7 @@
             // 
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnXoa.Image = global::QuanLyDienThoai.Properties.Resources.btn_Xoa;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnXoa.Location = new System.Drawing.Point(427, 460);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -171,6 +173,7 @@
             // 
             this.btnLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnLuu.Image = global::QuanLyDienThoai.Properties.Resources.btn_Luu;
             this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLuu.Location = new System.Drawing.Point(545, 460);
             this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -186,6 +189,7 @@
             // 
             this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnHuy.Image = global::QuanLyDienThoai.Properties.Resources.btnHuybo;
             this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHuy.Location = new System.Drawing.Point(663, 460);
             this.btnHuy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -201,6 +205,7 @@
             // 
             this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDong.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnDong.Image = global::QuanLyDienThoai.Properties.Resources.btn_Thoat;
             this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDong.Location = new System.Drawing.Point(781, 460);
             this.btnDong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -216,6 +221,7 @@
             // 
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnThem.Image = global::QuanLyDienThoai.Properties.Resources.btn_Them;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThem.Location = new System.Drawing.Point(190, 460);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

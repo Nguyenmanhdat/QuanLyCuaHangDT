@@ -36,7 +36,7 @@ namespace QuanLyDienThoai
             txtKhuyenmai.Text = "0";
             txtTongtien.Text = "0";
             functions.FIllcombo("Select MaHDN from tblHDNhap", cboSoHDN, "MaHDN", "MaHDN");
-            cboMaSP.SelectedIndex = -1;
+            cboSoHDN.SelectedIndex = -1;
             functions.FIllcombo("Select MaNV, TenNV from tblNhanvien", cboMaNV, "MaNV", "MaNV");
             cboMaNV.SelectedIndex = -1;
             functions.FIllcombo("Select MaNCC, TenNCC from tblNhacungcap", cboMaNCC, "MaNCC", "MaNCC");

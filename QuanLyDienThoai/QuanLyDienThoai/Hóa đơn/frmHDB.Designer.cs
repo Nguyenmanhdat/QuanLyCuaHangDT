@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label21 = new System.Windows.Forms.Label();
             this.btntimkiem = new System.Windows.Forms.Button();
             this.cbomahdb = new System.Windows.Forms.ComboBox();
@@ -92,18 +92,21 @@
             // 
             // btntimkiem
             // 
-            this.btntimkiem.Location = new System.Drawing.Point(793, 663);
+            this.btntimkiem.Image = global::QuanLyDienThoai.Properties.Resources.btn_Tìm_kiếm;
+            this.btntimkiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btntimkiem.Location = new System.Drawing.Point(788, 656);
             this.btntimkiem.Name = "btntimkiem";
-            this.btntimkiem.Size = new System.Drawing.Size(75, 23);
+            this.btntimkiem.Size = new System.Drawing.Size(100, 48);
             this.btntimkiem.TabIndex = 173;
             this.btntimkiem.Text = "Tìm kiếm";
+            this.btntimkiem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btntimkiem.UseVisualStyleBackColor = true;
             this.btntimkiem.Click += new System.EventHandler(this.btntimkiem_Click);
             // 
             // cbomahdb
             // 
             this.cbomahdb.FormattingEnabled = true;
-            this.cbomahdb.Location = new System.Drawing.Point(553, 663);
+            this.cbomahdb.Location = new System.Drawing.Point(560, 669);
             this.cbomahdb.Name = "cbomahdb";
             this.cbomahdb.Size = new System.Drawing.Size(194, 24);
             this.cbomahdb.TabIndex = 172;
@@ -111,7 +114,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(448, 663);
+            this.label20.Location = new System.Drawing.Point(476, 672);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(58, 16);
             this.label20.TabIndex = 171;
@@ -204,11 +207,14 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(831, 618);
+            this.btnXoa.Image = global::QuanLyDienThoai.Properties.Resources.btn_Xoa;
+            this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXoa.Location = new System.Drawing.Point(813, 595);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 28);
+            this.btnXoa.Size = new System.Drawing.Size(119, 51);
             this.btnXoa.TabIndex = 160;
-            this.btnXoa.Text = "Xóa ";
+            this.btnXoa.Text = "Xóa hóa đơn";
+            this.btnXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
@@ -222,51 +228,66 @@
             // btnDong
             // 
             this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDong.Location = new System.Drawing.Point(1075, 615);
+            this.btnDong.Image = global::QuanLyDienThoai.Properties.Resources.btn_Thoat;
+            this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDong.Location = new System.Drawing.Point(1075, 595);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(75, 31);
+            this.btnDong.Size = new System.Drawing.Size(98, 51);
             this.btnDong.TabIndex = 158;
             this.btnDong.Text = "Đóng";
+            this.btnDong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDong.UseVisualStyleBackColor = true;
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnIn
             // 
-            this.btnIn.Location = new System.Drawing.Point(962, 618);
+            this.btnIn.Image = global::QuanLyDienThoai.Properties.Resources.btn_in;
+            this.btnIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnIn.Location = new System.Drawing.Point(949, 595);
             this.btnIn.Name = "btnIn";
-            this.btnIn.Size = new System.Drawing.Size(75, 28);
+            this.btnIn.Size = new System.Drawing.Size(110, 51);
             this.btnIn.TabIndex = 157;
-            this.btnIn.Text = "In";
+            this.btnIn.Text = "In hóa đơn\r\n";
+            this.btnIn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnIn.UseVisualStyleBackColor = true;
             this.btnIn.Click += new System.EventHandler(this.btnIn_Click);
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(695, 618);
+            this.btnHuy.Image = global::QuanLyDienThoai.Properties.Resources.btnHuybo;
+            this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHuy.Location = new System.Drawing.Point(679, 595);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(75, 28);
+            this.btnHuy.Size = new System.Drawing.Size(116, 51);
             this.btnHuy.TabIndex = 156;
-            this.btnHuy.Text = "Hủy";
+            this.btnHuy.Text = "Hủy hóa đơn";
+            this.btnHuy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnHuy.UseVisualStyleBackColor = true;
             this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(547, 618);
+            this.btnLuu.Image = global::QuanLyDienThoai.Properties.Resources.btn_Luu;
+            this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLuu.Location = new System.Drawing.Point(538, 595);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(75, 28);
+            this.btnLuu.Size = new System.Drawing.Size(121, 51);
             this.btnLuu.TabIndex = 155;
-            this.btnLuu.Text = "Lưu";
+            this.btnLuu.Text = "Lưu hóa đơn";
+            this.btnLuu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(412, 618);
+            this.btnThem.Image = global::QuanLyDienThoai.Properties.Resources.btn_Them;
+            this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThem.Location = new System.Drawing.Point(343, 595);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 28);
+            this.btnThem.Size = new System.Drawing.Size(157, 51);
             this.btnThem.TabIndex = 154;
             this.btnThem.Text = "Thêm hóa đơn";
+            this.btnThem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
@@ -327,33 +348,33 @@
             // 
             // dgridHoaDonBan
             // 
-            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle46.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle46.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle46.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgridHoaDonBan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgridHoaDonBan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.dgridHoaDonBan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle47.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle47.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle47.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgridHoaDonBan.DefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgridHoaDonBan.DefaultCellStyle = dataGridViewCellStyle11;
             this.dgridHoaDonBan.Location = new System.Drawing.Point(369, 375);
             this.dgridHoaDonBan.Name = "dgridHoaDonBan";
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle48.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle48.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgridHoaDonBan.RowHeadersDefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgridHoaDonBan.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dgridHoaDonBan.RowHeadersWidth = 51;
             this.dgridHoaDonBan.RowTemplate.Height = 24;
             this.dgridHoaDonBan.Size = new System.Drawing.Size(813, 143);

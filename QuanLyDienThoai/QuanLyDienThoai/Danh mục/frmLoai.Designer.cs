@@ -45,72 +45,90 @@
             // 
             // btnDong
             // 
+            this.btnDong.Image = global::QuanLyDienThoai.Properties.Resources.btn_Thoat;
+            this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDong.Location = new System.Drawing.Point(835, 515);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(75, 23);
+            this.btnDong.Size = new System.Drawing.Size(84, 42);
             this.btnDong.TabIndex = 35;
             this.btnDong.Text = "Đóng";
+            this.btnDong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDong.UseVisualStyleBackColor = true;
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnHuy
             // 
+            this.btnHuy.Image = global::QuanLyDienThoai.Properties.Resources.btnHuybo;
+            this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHuy.Location = new System.Drawing.Point(706, 515);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(75, 23);
+            this.btnHuy.Size = new System.Drawing.Size(83, 42);
             this.btnHuy.TabIndex = 34;
             this.btnHuy.Text = "Hủy";
+            this.btnHuy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnHuy.UseVisualStyleBackColor = true;
             this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnLuu
             // 
+            this.btnLuu.Image = global::QuanLyDienThoai.Properties.Resources.btn_Luu;
+            this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLuu.Location = new System.Drawing.Point(590, 515);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(75, 23);
+            this.btnLuu.Size = new System.Drawing.Size(78, 42);
             this.btnLuu.TabIndex = 33;
             this.btnLuu.Text = "Lưu";
+            this.btnLuu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnXoa
             // 
+            this.btnXoa.Image = global::QuanLyDienThoai.Properties.Resources.btn_Xoa;
+            this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnXoa.Location = new System.Drawing.Point(473, 515);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 23);
+            this.btnXoa.Size = new System.Drawing.Size(77, 42);
             this.btnXoa.TabIndex = 32;
             this.btnXoa.Text = "Xóa";
+            this.btnXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(349, 515);
+            this.btnSua.Image = global::QuanLyDienThoai.Properties.Resources.btn_Sua;
+            this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSua.Location = new System.Drawing.Point(358, 515);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 23);
+            this.btnSua.Size = new System.Drawing.Size(75, 42);
             this.btnSua.TabIndex = 31;
             this.btnSua.Text = "Sửa";
+            this.btnSua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
+            this.btnThem.Image = global::QuanLyDienThoai.Properties.Resources.btn_Them;
+            this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThem.Location = new System.Drawing.Point(231, 515);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
+            this.btnThem.Size = new System.Drawing.Size(84, 42);
             this.btnThem.TabIndex = 30;
             this.btnThem.Text = "Thêm";
+            this.btnThem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // dgrLoai
             // 
             this.dgrLoai.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgrLoai.Location = new System.Drawing.Point(259, 309);
+            this.dgrLoai.Location = new System.Drawing.Point(197, 278);
             this.dgrLoai.Name = "dgrLoai";
             this.dgrLoai.RowHeadersWidth = 51;
             this.dgrLoai.RowTemplate.Height = 24;
-            this.dgrLoai.Size = new System.Drawing.Size(640, 150);
+            this.dgrLoai.Size = new System.Drawing.Size(760, 216);
             this.dgrLoai.TabIndex = 29;
             this.dgrLoai.Click += new System.EventHandler(this.dgrLoai_Click);
             // 
@@ -118,14 +136,14 @@
             // 
             this.txtTenloai.Location = new System.Drawing.Point(459, 226);
             this.txtTenloai.Name = "txtTenloai";
-            this.txtTenloai.Size = new System.Drawing.Size(100, 22);
+            this.txtTenloai.Size = new System.Drawing.Size(261, 22);
             this.txtTenloai.TabIndex = 28;
             // 
             // txtMaloai
             // 
             this.txtMaloai.Location = new System.Drawing.Point(459, 183);
             this.txtMaloai.Name = "txtMaloai";
-            this.txtMaloai.Size = new System.Drawing.Size(100, 22);
+            this.txtMaloai.Size = new System.Drawing.Size(261, 22);
             this.txtMaloai.TabIndex = 27;
             // 
             // label3
@@ -149,10 +167,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(454, 118);
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(382, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 25);
+            this.label1.Size = new System.Drawing.Size(378, 55);
             this.label1.TabIndex = 24;
             this.label1.Text = "DANH MỤC LOẠI";
             // 

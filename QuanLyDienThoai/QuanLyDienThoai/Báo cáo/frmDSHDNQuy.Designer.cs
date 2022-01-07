@@ -128,6 +128,7 @@
             // 
             this.btnTimlai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimlai.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnTimlai.Image = global::QuanLyDienThoai.Properties.Resources.btnHuybo;
             this.btnTimlai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTimlai.Location = new System.Drawing.Point(251, 371);
             this.btnTimlai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -142,6 +143,7 @@
             // 
             this.btnIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIn.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnIn.Image = global::QuanLyDienThoai.Properties.Resources.btn_in;
             this.btnIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnIn.Location = new System.Drawing.Point(426, 371);
             this.btnIn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -156,6 +158,7 @@
             // 
             this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDong.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnDong.Image = global::QuanLyDienThoai.Properties.Resources.btn_Thoat;
             this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDong.Location = new System.Drawing.Point(601, 371);
             this.btnDong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -170,6 +173,7 @@
             // 
             this.btnHienthi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHienthi.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnHienthi.Image = global::QuanLyDienThoai.Properties.Resources.btn_Hienthi;
             this.btnHienthi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHienthi.Location = new System.Drawing.Point(76, 371);
             this.btnHienthi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

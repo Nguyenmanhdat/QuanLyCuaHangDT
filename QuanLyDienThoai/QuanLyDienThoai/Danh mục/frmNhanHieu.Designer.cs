@@ -84,56 +84,71 @@
             // 
             // btndong
             // 
+            this.btndong.Image = global::QuanLyDienThoai.Properties.Resources.btn_Thoat;
+            this.btndong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btndong.Location = new System.Drawing.Point(688, 467);
             this.btndong.Margin = new System.Windows.Forms.Padding(4);
             this.btndong.Name = "btndong";
             this.btndong.Size = new System.Drawing.Size(100, 28);
             this.btndong.TabIndex = 31;
             this.btndong.Text = "Đóng";
+            this.btndong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btndong.UseVisualStyleBackColor = true;
             this.btndong.Click += new System.EventHandler(this.btndong_Click);
             // 
             // btnhuy
             // 
+            this.btnhuy.Image = global::QuanLyDienThoai.Properties.Resources.btnHuybo;
+            this.btnhuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnhuy.Location = new System.Drawing.Point(551, 467);
             this.btnhuy.Margin = new System.Windows.Forms.Padding(4);
             this.btnhuy.Name = "btnhuy";
             this.btnhuy.Size = new System.Drawing.Size(100, 28);
             this.btnhuy.TabIndex = 30;
             this.btnhuy.Text = "Hủy";
+            this.btnhuy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnhuy.UseVisualStyleBackColor = true;
             this.btnhuy.Click += new System.EventHandler(this.btnhuy_Click);
             // 
             // btnluu
             // 
+            this.btnluu.Image = global::QuanLyDienThoai.Properties.Resources.btn_Luu;
+            this.btnluu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnluu.Location = new System.Drawing.Point(410, 467);
             this.btnluu.Margin = new System.Windows.Forms.Padding(4);
             this.btnluu.Name = "btnluu";
             this.btnluu.Size = new System.Drawing.Size(100, 28);
             this.btnluu.TabIndex = 29;
             this.btnluu.Text = "Lưu";
+            this.btnluu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnluu.UseVisualStyleBackColor = true;
             this.btnluu.Click += new System.EventHandler(this.btnluu_Click);
             // 
             // btnxoa
             // 
+            this.btnxoa.Image = global::QuanLyDienThoai.Properties.Resources.btn_Xoa;
+            this.btnxoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnxoa.Location = new System.Drawing.Point(280, 467);
             this.btnxoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(100, 28);
             this.btnxoa.TabIndex = 28;
             this.btnxoa.Text = "Xóa";
+            this.btnxoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnxoa.UseVisualStyleBackColor = true;
             this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
             // 
             // btnsua
             // 
+            this.btnsua.Image = global::QuanLyDienThoai.Properties.Resources.btn_Sua;
+            this.btnsua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnsua.Location = new System.Drawing.Point(143, 467);
             this.btnsua.Margin = new System.Windows.Forms.Padding(4);
             this.btnsua.Name = "btnsua";
             this.btnsua.Size = new System.Drawing.Size(100, 28);
             this.btnsua.TabIndex = 27;
             this.btnsua.Text = "Sửa";
+            this.btnsua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnsua.UseVisualStyleBackColor = true;
             this.btnsua.Click += new System.EventHandler(this.btnsua_Click);
             // 
@@ -147,12 +162,15 @@
             // 
             // btnthem
             // 
+            this.btnthem.Image = global::QuanLyDienThoai.Properties.Resources.btn_Them;
+            this.btnthem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnthem.Location = new System.Drawing.Point(12, 467);
             this.btnthem.Margin = new System.Windows.Forms.Padding(4);
             this.btnthem.Name = "btnthem";
             this.btnthem.Size = new System.Drawing.Size(100, 28);
             this.btnthem.TabIndex = 25;
             this.btnthem.Text = "Thêm";
+            this.btnthem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnthem.UseVisualStyleBackColor = true;
             this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
             // 
@@ -171,7 +189,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 579);
+            this.ClientSize = new System.Drawing.Size(908, 576);
             this.Controls.Add(this.dgridNhanHieu);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

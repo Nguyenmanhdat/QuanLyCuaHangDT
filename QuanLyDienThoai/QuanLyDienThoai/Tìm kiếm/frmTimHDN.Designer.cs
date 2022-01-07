@@ -67,7 +67,7 @@
             // 
             // txtTongtien
             // 
-            this.txtTongtien.Location = new System.Drawing.Point(776, 219);
+            this.txtTongtien.Location = new System.Drawing.Point(526, 233);
             this.txtTongtien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTongtien.Name = "txtTongtien";
             this.txtTongtien.Size = new System.Drawing.Size(136, 22);
@@ -79,7 +79,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label8.Location = new System.Drawing.Point(615, 224);
+            this.label8.Location = new System.Drawing.Point(429, 234);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(69, 18);
             this.label8.TabIndex = 45;
@@ -108,11 +108,12 @@
             // 
             this.btnTimlai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimlai.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnTimlai.Image = global::QuanLyDienThoai.Properties.Resources.btnHuybo;
             this.btnTimlai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTimlai.Location = new System.Drawing.Point(508, 420);
+            this.btnTimlai.Location = new System.Drawing.Point(506, 420);
             this.btnTimlai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTimlai.Name = "btnTimlai";
-            this.btnTimlai.Size = new System.Drawing.Size(116, 30);
+            this.btnTimlai.Size = new System.Drawing.Size(91, 46);
             this.btnTimlai.TabIndex = 42;
             this.btnTimlai.Text = "Tìm lại";
             this.btnTimlai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -123,11 +124,12 @@
             // 
             this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDong.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnDong.Image = global::QuanLyDienThoai.Properties.Resources.btn_Thoat;
             this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDong.Location = new System.Drawing.Point(769, 420);
+            this.btnDong.Location = new System.Drawing.Point(724, 420);
             this.btnDong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(116, 30);
+            this.btnDong.Size = new System.Drawing.Size(89, 46);
             this.btnDong.TabIndex = 41;
             this.btnDong.Text = "Đóng";
             this.btnDong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -138,11 +140,12 @@
             // 
             this.btnTimkiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimkiem.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnTimkiem.Image = global::QuanLyDienThoai.Properties.Resources.btn_Tìm_kiếm;
             this.btnTimkiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTimkiem.Location = new System.Drawing.Point(248, 420);
+            this.btnTimkiem.Location = new System.Drawing.Point(290, 420);
             this.btnTimkiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTimkiem.Name = "btnTimkiem";
-            this.btnTimkiem.Size = new System.Drawing.Size(116, 30);
+            this.btnTimkiem.Size = new System.Drawing.Size(97, 46);
             this.btnTimkiem.TabIndex = 40;
             this.btnTimkiem.Text = "Tìm kiếm";
             this.btnTimkiem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

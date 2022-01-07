@@ -87,10 +87,10 @@
     <Compile Include="Báo cáo\frmDSHDNQuy.Designer.cs">
       <DependentUpon>frmDSHDNQuy.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSanpham.cs">
+    <Compile Include="Danh mục\frmSanpham.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSanpham.Designer.cs">
+    <Compile Include="Danh mục\frmSanpham.Designer.cs">
       <DependentUpon>frmSanpham.cs</DependentUpon>
     </Compile>
     <Compile Include="Hóa đơn\frmHDB.cs">
@@ -189,7 +189,7 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSanpham.resx">
+    <EmbeddedResource Include="Danh mục\frmSanpham.resx">
       <DependentUpon>frmSanpham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hóa đơn\frmHDB.resx">

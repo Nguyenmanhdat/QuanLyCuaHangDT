@@ -70,31 +70,40 @@
             // 
             // btndong
             // 
-            this.btndong.Location = new System.Drawing.Point(713, 503);
+            this.btndong.Image = global::QuanLyDienThoai.Properties.Resources.btn_Thoat;
+            this.btndong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btndong.Location = new System.Drawing.Point(666, 504);
             this.btndong.Name = "btndong";
-            this.btndong.Size = new System.Drawing.Size(75, 23);
+            this.btndong.Size = new System.Drawing.Size(83, 44);
             this.btndong.TabIndex = 42;
             this.btndong.Text = "Đóng";
+            this.btndong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btndong.UseVisualStyleBackColor = true;
             this.btndong.Click += new System.EventHandler(this.btndong_Click);
             // 
             // btntl
             // 
-            this.btntl.Location = new System.Drawing.Point(478, 503);
+            this.btntl.Image = global::QuanLyDienThoai.Properties.Resources.btnHuybo;
+            this.btntl.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btntl.Location = new System.Drawing.Point(468, 504);
             this.btntl.Name = "btntl";
-            this.btntl.Size = new System.Drawing.Size(75, 23);
+            this.btntl.Size = new System.Drawing.Size(83, 44);
             this.btntl.TabIndex = 41;
             this.btntl.Text = "Tìm lại";
+            this.btntl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btntl.UseVisualStyleBackColor = true;
             this.btntl.Click += new System.EventHandler(this.btntl_Click);
             // 
             // btntk
             // 
-            this.btntk.Location = new System.Drawing.Point(276, 504);
+            this.btntk.Image = global::QuanLyDienThoai.Properties.Resources.btn_Tìm_kiếm;
+            this.btntk.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btntk.Location = new System.Drawing.Point(243, 504);
             this.btntk.Name = "btntk";
-            this.btntk.Size = new System.Drawing.Size(75, 23);
+            this.btntk.Size = new System.Drawing.Size(91, 44);
             this.btntk.TabIndex = 40;
             this.btntk.Text = "Tìm kiếm";
+            this.btntk.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btntk.UseVisualStyleBackColor = true;
             this.btntk.Click += new System.EventHandler(this.btntk_Click);
             // 
