@@ -34,19 +34,19 @@ namespace QuanLyDienThoai
         {
             string sql;
             if ((txtMHD.Text == "") && (txtMNV.Text == "") &&
-               (txtNgay.Text == "") && (txtMKH.Text == "") &&
+               (txtThang.Text == "") && (txtMKH.Text == "") &&
                (tong.Text == ""))
             {
                 MessageBox.Show("Hãy nhập một điều kiện tìm kiếm!!!", "Yêu cầu ...", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            sql = "SELECT * FROM tblHDBan WHERE 1=1";
+            sql = "SELECT * from tblHDBan where 1=1 ";
             if (txtMHD.Text != "")
                 sql = sql + " AND MaHDB Like N'%" + txtMHD.Text + "%'";
             if (txtMKH.Text != "")
                 sql = sql + " AND MaKH Like N'%" + txtMKH.Text + "%'";
-            if (txtNgay.Text != "")
-                sql = sql + " AND Ngayban =" + txtNgay.Text;
+            if (txtThang.Text != "")
+                sql = sql + " AND MONTH(Ngayban) =" + txtThang.Text;
             if (txtMNV.Text != "")
                 sql = sql + " AND MaNV Like N'%" + txtMNV.Text + "%'";
 
@@ -63,7 +63,7 @@ namespace QuanLyDienThoai
         private void LoadDataGridView()
         {
             string sql;
-            sql = "select MaHDB, Ngayban, MaNV, MaKH, Tongtien from tblHDBan where MaHDB = '" + txtMHD.Text + "'";
+            sql = "SELECT * from tblHDBan where MaHDB = '"+txtMHD.Text+"'";
             tblTKHDB = functions.GetDataToTable(sql);
             dataGridView1.DataSource = tblTKHDB;
 
@@ -93,14 +93,16 @@ namespace QuanLyDienThoai
 
         private void dataGridView1_DoubleClick(object sender, EventArgs e)
         {
-            string mahd;
+      
             if (MessageBox.Show("Bạn có muốn hiển thị thông tin chi tiết?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                mahd = dataGridView1.CurrentRow.Cells["MaHDB"].Value.ToString();
-                frmTimHDB frm = new frmTimHDB();
-                frm.txtMHD.Text = mahd;
-                frm.StartPosition = FormStartPosition.CenterParent;
-                frm.ShowDialog();
+                txtMHD.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                txtThang.Text = functions.GetFileValues("select month(Ngayban) from tblHDBan where MaHDB = '" + txtMHD.Text + "'");
+                txtMNV.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+                tong.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+                txtMKH.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
+
+
             }
         }
 

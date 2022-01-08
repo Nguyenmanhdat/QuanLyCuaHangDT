@@ -29,16 +29,16 @@ namespace QuanLyDienThoai
 
             dataGridView1.DataSource = null;
             //Đổ 4 quí vào ComboBox
-            cbothang.Items.Add("1");
-            cbothang.Items.Add("2");
-            cbothang.Items.Add("3");
-            cbothang.Items.Add("4");
-            cbothang.Items.Add("4");
-            cbothang.Items.Add("5");
-            cbothang.Items.Add("6");
-            cbothang.Items.Add("7");
-            cbothang.Items.Add("8");
-            cbothang.Items.Add("9");
+            cbothang.Items.Add("01");
+            cbothang.Items.Add("02");
+            cbothang.Items.Add("03");
+            cbothang.Items.Add("04");
+            cbothang.Items.Add("04");
+            cbothang.Items.Add("05");
+            cbothang.Items.Add("06");
+            cbothang.Items.Add("07");
+            cbothang.Items.Add("08");
+            cbothang.Items.Add("09");
             cbothang.Items.Add("10");
             cbothang.Items.Add("11");
             cbothang.Items.Add("12");
@@ -46,7 +46,7 @@ namespace QuanLyDienThoai
 
         private void btnBaocao_Click(object sender, EventArgs e)
         {
-
+            btnBaocao.Enabled = false;
             cbothang.Enabled = true;
             txtnam.Enabled = true;
             btnHienthi.Enabled = true;
@@ -179,8 +179,8 @@ namespace QuanLyDienThoai
             }
 
             string sql = "SELECT TOP 1 a.MaSP, a.TenSP, SUM(b.Soluong) AS Tongsoluong from tblSanpham as a, tblchitietHDBan as b, tblHDBan as c " +
-                "where (a.MaSP = b.MaSP) AND (b.MaHDB = c.MaHDB) AND (Year(c.Ngayban) = '" + txtnam.Text + "') and (month(c.Ngayban) = '" + cbothang.Text + "')" +
-                "group by a.MaSP,a.TenSP";
+                "where (a.MaSP = b.MaSP) AND (b.MaHDB = c.MaHDB) AND (Year(c.Ngayban) = '" + txtnam.Text + "') and (month(c.Ngayban) = '" + cbothang.Text + "') " +
+                "group by a.MaSP,a.TenSP order by Tongsoluong desc";
 
             tblBC = functions.GetDataToTable(sql);
             dataGridView1.DataSource = tblBC;

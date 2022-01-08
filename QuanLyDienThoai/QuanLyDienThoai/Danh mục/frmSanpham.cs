@@ -31,6 +31,10 @@ namespace QuanLyDienThoai
             dgvDMSanpham.Columns[6].HeaderText = "Số lượng";
             dgvDMSanpham.Columns[7].HeaderText = "Thời gian bảo hành";
             dgvDMSanpham.Columns[8].HeaderText = "Mã màn hình";
+
+            dgvDMSanpham.AllowUserToAddRows = false;
+            dgvDMSanpham.EditMode = DataGridViewEditMode.EditProgrammatically;
+
         }
 
         private void frmSanpham_Load(object sender, EventArgs e)
@@ -69,13 +73,14 @@ namespace QuanLyDienThoai
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+           
             btnSua.Enabled = false;
             btnXoa.Enabled = false;
             btnHuy.Enabled = true;
             btnLuu.Enabled = true;
             btnThem.Enabled = false;
             txtMasp.Enabled = false;
-            txtMasp.Focus();
+            txtTensp.Focus();
             ResetValues();
             loadDataToGridView();
             txtMasp.Text = functions.tangkey("select top(1) convert(integer ,substring(MaSP,3,3)+1) as soma from  tblSanpham order by soma desc", "SP");
@@ -395,9 +400,11 @@ namespace QuanLyDienThoai
             cboMamanhinh.Text = functions.GetFileValues("select TenMH from tblManhinh where MaMH='" + mamh + "'");
 
             txtAnh.Text = functions.GetFileValues("SELECT Anh FROM tblSanpham WHERE MaSP = N'" + txtMasp.Text + "'");
+
             picAnh.Image = Image.FromFile(txtAnh.Text);
            
-
+            dgvDMSanpham.AllowUserToAddRows = false;
+            dgvDMSanpham.EditMode = DataGridViewEditMode.EditProgrammatically;
             picAnh.SizeMode = PictureBoxSizeMode.Zoom;
             btnSua.Enabled = true;
             btnXoa.Enabled = true;

@@ -21,7 +21,7 @@ namespace QuanLyDienThoai
 
         private void frmDSNVThang_Load(object sender, EventArgs e)
         {
-            cbothang.Items.Add("8");
+  
             cbothang.Enabled = false;
             txtnam.Enabled = false;
             btnBaocao.Enabled = true;
@@ -38,6 +38,7 @@ namespace QuanLyDienThoai
             cbothang.Items.Add("5");
             cbothang.Items.Add("6");
             cbothang.Items.Add("7");
+            cbothang.Items.Add("8");
             cbothang.Items.Add("9");
             cbothang.Items.Add("10");
             cbothang.Items.Add("11");
@@ -110,9 +111,9 @@ namespace QuanLyDienThoai
             exRange.Range["D3:F3"].MergeCells = true;
             exRange.Range["D3:F3"].HorizontalAlignment = COMExecl.XlHAlign.xlHAlignCenter;
             exRange.Range["D3:F3"].Value = "Tháng " + cbothang.SelectedItem + " Năm " + txtnam.Text;
-            sql = "SELECT TOP 1 a.MaNV, a.TenNV, SUM(b.soluong) AS Tongsoluong from tblNhanvien as a, tblchitietHDBan as b, tblHDBan as c " +
-                "where (a.MaNV = c.MaNV) AND (b.MaHDB = c.MaHDB) AND (Year(c.Ngayban) = '" + txtnam.Text + "') and (month(c.Ngayban) = '" + cbothang.Text + "')" +
-                "group by a.MaNV,a.TenNV";
+            sql = "SELECT Top(5) a.MaNV, a.TenNV, SUM(c.Tongtien) AS Tongtien from tblNhanvien as a, tblchitietHDBan as b, tblHDBan as c " +
+                "where (a.MaNV = c.MaNV) AND (b.MaHDB = c.MaHDB) AND (Year(c.Ngayban) = '" + txtnam.Text + "') and (month(c.Ngayban) = '" + cbothang.Text + "') " +
+                "group by a.MaNV,a.TenNV order by Tongtien ";
 
             danhsach = functions.GetDataToTable(sql);//đổ dữ liệu từ lệnh sql vào biến "danhsach"
 
@@ -129,7 +130,7 @@ namespace QuanLyDienThoai
             exRange.Range["B5:B5"].Value = "STT";
             exRange.Range["C5:C5"].Value = "Mã nhân viên";
             exRange.Range["D5:D5"].Value = "Tên nhân viên";
-            exRange.Range["E5:E5"].Value = "Số lượng bán";
+            exRange.Range["E5:E5"].Value = "Tổng tiền";
             //exRange.Range["F5:F5"].Value = "Quí " + cboQui.SelectedItem;
 
             //vòng lặp để đổ dữ liệu từ biến "danhsach" vào excel
@@ -168,9 +169,9 @@ namespace QuanLyDienThoai
                 return;
             }
 
-            string sql = "SELECT TOP 5 a.MaNV, a.TenNV, SUM(b.soluong) AS Tongsoluong from tblNhanvien as a, tblchitietHDBan as b, tblHDBan as c " +
-                "where (a.MaNV = b.MaNV) AND (b.MaHDB = c.MaHDB) AND (Year(c.Ngayban) = '" + txtnam.Text + "') and (month(c.Ngayban) = '" + cbothang.Text + "')" +
-                "group by a.MaNV,a.TenNV";
+            string sql = "SELECT Top(5) a.MaNV, a.TenNV, SUM(c.Tongtien) AS Tongtien from tblNhanvien as a, tblchitietHDBan as b, tblHDBan as c " +
+                "where (a.MaNV = c.MaNV) AND (b.MaHDB = c.MaHDB) AND (Year(c.Ngayban) = '" + txtnam.Text + "') and (month(c.Ngayban) = '" + cbothang.Text + "') " +
+                "group by a.MaNV,a.TenNV order by Tongtien ";
 
             tblBCDSNV = functions.GetDataToTable(sql);
             dgridBCDSNV.DataSource = tblBCDSNV;

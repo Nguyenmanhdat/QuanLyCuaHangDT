@@ -40,15 +40,15 @@ namespace QuanLyDienThoai
                 MessageBox.Show("Hãy nhập một điều kiện tìm kiếm!!!", "Yêu cầu ...", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            sql = "SELECT tblHDNhap.MaHDN,MaNV,Ngaynhap,MaNCC,Tongtien FROM tblHDNhap WHERE 1=1";
+            sql = "SELECT * FROM tblHDNhap WHERE 1=1";
             if (txtMaHDN.Text != "")
                 sql = sql + " AND MaHDN Like N'%" + txtMaHDN.Text + "%'";
-            if (txtMaNCC.Text != "")
-                sql = sql + " AND MaNCC Like N'%" + txtMaNCC.Text + "%'";
             if (txtThang.Text != "")
                 sql = sql + " AND MONTH(Ngaynhap) =" + txtThang.Text;
             if (txtMaNV.Text != "")
                 sql = sql + " AND MaNV Like N'%" + txtMaNV.Text + "%'";
+            if (txtMaNCC.Text != "")
+                sql = sql + " AND MaNCC Like N'%" + txtMaNCC.Text + "%'";
 
             tblHDN = functions.GetDataToTable(sql);
             if (tblHDN.Rows.Count == 0)
@@ -65,8 +65,8 @@ namespace QuanLyDienThoai
         private void LoadDataGridView()
         {
             dgvTìmkiemHĐN.Columns[0].HeaderText = "Mã HĐN";
-            dgvTìmkiemHĐN.Columns[1].HeaderText = "Mã NV";
-            dgvTìmkiemHĐN.Columns[2].HeaderText = "Ngày nhập";
+            dgvTìmkiemHĐN.Columns[1].HeaderText = "Ngày nhập";
+            dgvTìmkiemHĐN.Columns[2].HeaderText = "MaNV";
             dgvTìmkiemHĐN.Columns[3].HeaderText = "Mã NCC";
             dgvTìmkiemHĐN.Columns[4].HeaderText = "Tổng tiền";
             dgvTìmkiemHĐN.AllowUserToAddRows = false;
@@ -91,14 +91,15 @@ namespace QuanLyDienThoai
 
         private void dgvTìmkiemHĐN_Click(object sender, EventArgs e)
         {
-            string mahd;
+         
             if (MessageBox.Show("Bạn có muốn hiển thị thông tin chi tiết?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                mahd = dgvTìmkiemHĐN.CurrentRow.Cells["MaHDN"].Value.ToString();
-                frmTimHDN frm = new frmTimHDN();
-                frm.txtMaHDN.Text = mahd;
-                frm.StartPosition = FormStartPosition.CenterParent;
-                frm.ShowDialog();
+
+                txtMaHDN.Text = dgvTìmkiemHĐN.CurrentRow.Cells[0].Value.ToString();
+                txtThang.Text = functions.GetFileValues("select month(Ngaynhap) from tblHDNhap where MaHDN = '" + txtMaHDN.Text + "'");
+                txtMaNCC.Text = dgvTìmkiemHĐN.CurrentRow.Cells[3].Value.ToString();
+                txtTongtien.Text = dgvTìmkiemHĐN.CurrentRow.Cells[4].Value.ToString();
+                txtMaNV.Text = dgvTìmkiemHĐN.CurrentRow.Cells[1].Value.ToString();
             }
 
         }

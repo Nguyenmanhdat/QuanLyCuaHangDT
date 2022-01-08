@@ -29,7 +29,7 @@ namespace QuanLyDienThoai
             txtTenNhanVien.ReadOnly = true;
             txtTenKhachHang.ReadOnly = true;
             txtDiaChi.ReadOnly = true;
-            mskDienThoai.ReadOnly = true;
+       
             txtTenSanPham.ReadOnly = true;
             txtDonGia.ReadOnly = true;
             txtThanhTien.ReadOnly = true;
@@ -210,7 +210,7 @@ namespace QuanLyDienThoai
                 }
                 //lưu thông tin chung vào bảng tblhdban    
                 sql = "INSERT INTO tblHDBan(MaHDB, Ngayban, MaNV, MaKH, Tongtien) VALUES (N'" + txtMaHoaDon.Text.Trim() + "', '" +
-                        functions.ConvertTimeTo24(mskNgayBan.Text.Trim()) + "',N'" + cboMaNhanVien.Text + "',N'" +
+                        functions.CovertToDate(mskNgayBan.Text) + "',N'" + cboMaNhanVien.Text + "',N'" +
                         cboMaKhachhang.Text + "'," + txtTongTien.Text + ")";
                 functions.Runsql(sql);
             }
@@ -416,13 +416,20 @@ MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         private void btntimkiem_Click(object sender, EventArgs e)
         {
-            txtMaHoaDon.Text = cbomahdb.SelectedValue.ToString();
+            if (cbomahdb.Text == "")
+            {
+                MessageBox.Show("Bạn phải chọn một mã hóa đơn để tìm", "Thông báo",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cbomahdb.Focus();
+                return;
+            }
+            txtMaHoaDon.Text = cbomahdb.Text;
             LoadInfoHoadon();
             LoadDataGridView();
             btnHuy.Enabled = true;
             btnLuu.Enabled = true;
             btnIn.Enabled = true;
-            lblBangChu.Text = "Bằng chữ:" + functions.ChuyenSoSangChu(txtTongTien.Text);
+            lblBangChu.Text = "Bằng chữ: " + functions.ChuyenSoSangChu(txtTongTien.Text);
 
         }
 

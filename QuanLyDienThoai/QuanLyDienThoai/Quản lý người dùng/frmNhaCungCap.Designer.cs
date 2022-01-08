@@ -53,10 +53,10 @@
             this.btnSua.ForeColor = System.Drawing.Color.Black;
             this.btnSua.Image = global::QuanLyDienThoai.Properties.Resources.btn_Sua;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(257, 450);
+            this.btnSua.Location = new System.Drawing.Point(232, 441);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(101, 29);
+            this.btnSua.Size = new System.Drawing.Size(116, 46);
             this.btnSua.TabIndex = 47;
             this.btnSua.Text = "Sửa";
             this.btnSua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -69,10 +69,10 @@
             this.btnXoa.ForeColor = System.Drawing.Color.Black;
             this.btnXoa.Image = global::QuanLyDienThoai.Properties.Resources.btn_Xoa;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(376, 450);
+            this.btnXoa.Location = new System.Drawing.Point(366, 441);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(101, 29);
+            this.btnXoa.Size = new System.Drawing.Size(112, 46);
             this.btnXoa.TabIndex = 46;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -85,10 +85,10 @@
             this.btnLuu.ForeColor = System.Drawing.Color.Black;
             this.btnLuu.Image = global::QuanLyDienThoai.Properties.Resources.btn_Luu;
             this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLuu.Location = new System.Drawing.Point(494, 450);
+            this.btnLuu.Location = new System.Drawing.Point(495, 441);
             this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(101, 29);
+            this.btnLuu.Size = new System.Drawing.Size(114, 46);
             this.btnLuu.TabIndex = 45;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -101,10 +101,10 @@
             this.btnHuy.ForeColor = System.Drawing.Color.Black;
             this.btnHuy.Image = global::QuanLyDienThoai.Properties.Resources.btnHuybo;
             this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHuy.Location = new System.Drawing.Point(612, 450);
+            this.btnHuy.Location = new System.Drawing.Point(627, 441);
             this.btnHuy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(101, 29);
+            this.btnHuy.Size = new System.Drawing.Size(132, 46);
             this.btnHuy.TabIndex = 44;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -117,10 +117,10 @@
             this.btnDong.ForeColor = System.Drawing.Color.Black;
             this.btnDong.Image = global::QuanLyDienThoai.Properties.Resources.btn_Thoat;
             this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDong.Location = new System.Drawing.Point(730, 450);
+            this.btnDong.Location = new System.Drawing.Point(781, 441);
             this.btnDong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(101, 29);
+            this.btnDong.Size = new System.Drawing.Size(120, 46);
             this.btnDong.TabIndex = 43;
             this.btnDong.Text = "Đóng";
             this.btnDong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -133,10 +133,10 @@
             this.btnThem.ForeColor = System.Drawing.Color.Black;
             this.btnThem.Image = global::QuanLyDienThoai.Properties.Resources.btn_Them;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(139, 450);
+            this.btnThem.Location = new System.Drawing.Point(92, 441);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(101, 29);
+            this.btnThem.Size = new System.Drawing.Size(122, 46);
             this.btnThem.TabIndex = 42;
             this.btnThem.Text = "Thêm";
             this.btnThem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -146,7 +146,7 @@
             // dgvDMNCC
             // 
             this.dgvDMNCC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDMNCC.Location = new System.Drawing.Point(126, 291);
+            this.dgvDMNCC.Location = new System.Drawing.Point(132, 291);
             this.dgvDMNCC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvDMNCC.Name = "dgvDMNCC";
             this.dgvDMNCC.RowHeadersWidth = 62;
@@ -157,7 +157,7 @@
             // 
             // mskDienThoai
             // 
-            this.mskDienThoai.Location = new System.Drawing.Point(420, 225);
+            this.mskDienThoai.Location = new System.Drawing.Point(422, 230);
             this.mskDienThoai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mskDienThoai.Mask = "(999) 000-0000";
             this.mskDienThoai.Name = "mskDienThoai";
@@ -166,7 +166,7 @@
             // 
             // txtTenNCC
             // 
-            this.txtTenNCC.Location = new System.Drawing.Point(420, 159);
+            this.txtTenNCC.Location = new System.Drawing.Point(422, 164);
             this.txtTenNCC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTenNCC.Name = "txtTenNCC";
             this.txtTenNCC.Size = new System.Drawing.Size(272, 22);
@@ -174,7 +174,7 @@
             // 
             // txtDiachi
             // 
-            this.txtDiachi.Location = new System.Drawing.Point(420, 192);
+            this.txtDiachi.Location = new System.Drawing.Point(422, 197);
             this.txtDiachi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDiachi.Name = "txtDiachi";
             this.txtDiachi.Size = new System.Drawing.Size(272, 22);
@@ -182,7 +182,7 @@
             // 
             // txtMaNCC
             // 
-            this.txtMaNCC.Location = new System.Drawing.Point(420, 124);
+            this.txtMaNCC.Location = new System.Drawing.Point(422, 129);
             this.txtMaNCC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMaNCC.Name = "txtMaNCC";
             this.txtMaNCC.Size = new System.Drawing.Size(272, 22);
@@ -236,7 +236,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(241, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(482, 47);
@@ -247,7 +247,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(987, 604);
+            this.BackgroundImage = global::QuanLyDienThoai.Properties.Resources.abc;
+            this.ClientSize = new System.Drawing.Size(987, 545);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnLuu);

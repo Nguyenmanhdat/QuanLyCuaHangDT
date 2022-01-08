@@ -67,3 +67,4 @@ C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\QuanLyCuaHangDT\QuanLyDi
 C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.frmTimHDN.resources
 C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.frmDSNVThang.resources
 C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.frmDSHDNQuy.resources
+C:\Users\HP\OneDrive\Máy tính\cơ sở lập trình 2\QuanLyCuaHangDT\QuanLyDienThoai\QuanLyDienThoai\obj\Debug\QuanLyDienThoai.frmDSHDBNam.resources

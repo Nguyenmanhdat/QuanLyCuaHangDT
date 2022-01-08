@@ -43,7 +43,7 @@ namespace QuanLyDienThoai
             cboMaNCC.SelectedIndex = -1;
             functions.FIllcombo("Select MaSP from tblSanPham ", cboMaSP, "MaSP", "MaSP");
             cboMaSP.SelectedIndex = -1;
-
+           
             if (txtMaHDN.Text != "")
             {
                 LoadInfoHoaDon();
@@ -156,7 +156,7 @@ namespace QuanLyDienThoai
                     return;
                 }
                 sql = "INSERT INTO tblHDNhap(MaHDN,Ngaynhap, MaNV, MaNCC, Tongtien) VALUES(N'" + txtMaHDN.Text.Trim() + "',N'" +
-                     functions.ConvertTimeTo24(mskNgaynhap.Text.Trim()) +
+                     functions.CovertToDate(mskNgaynhap.Text.Trim()) +
                     "',N'" + cboMaNV.SelectedValue + "', '" +
                     cboMaNCC.SelectedValue + "'," + txtTongtien.Text + ")";
                 functions.Runsql(sql);
@@ -624,6 +624,11 @@ namespace QuanLyDienThoai
                 functions.FIllcombo("Select MaHDN from tblHDNhap", cboMaSP, "MaHDN", "MaHDN");
                 cboMaSP.SelectedIndex = -1;
             }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
