@@ -31,7 +31,6 @@ namespace QuanLyDienThoai
             dgvDMSanpham.Columns[6].HeaderText = "Số lượng";
             dgvDMSanpham.Columns[7].HeaderText = "Thời gian bảo hành";
             dgvDMSanpham.Columns[8].HeaderText = "Mã màn hình";
-
             dgvDMSanpham.AllowUserToAddRows = false;
             dgvDMSanpham.EditMode = DataGridViewEditMode.EditProgrammatically;
 
